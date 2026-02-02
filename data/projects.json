@@ -1,0 +1,39 @@
+[
+    {
+    "id": "led-controller",
+    "title": "LED Controller",
+    "description": "Discord Bot that controls LED light strip in real time.",
+    "tech": ["Arduino","Python","Discord.py"],
+    "date": "Sep. 2023",
+    "link": "https://github.com/HaydenRichardson/Led-Bot",
+    "media": "#"
+    },
+    {
+    "id": "hall-pass",
+    "title": "Digital Hall Pass Mock-Up",
+    "description": "Basic webapp to track time and destination of students.",
+    "tech": ["React","node.js","Postgres"],
+    "date": "Dec. 2023",
+    "content": "I completed this project in Highschool using simple React and Node.js, effectively tracked time out, destination, and origin of students to eliminate the need for manual tracking.",
+    "link": "#"
+    },
+    {
+    "id": "cat-feeder",
+    "title": "Auto Cat Feeder",
+    "description": "Arduino-based automatic feeder with scheduling.",
+    "tech": ["Arduino","Servo","Real Time Clock","Load Cell"],
+    "date": "Jan. 2026",
+    "content": "Designed and prototyped an automatic cat feeder that releases kibble at specified times and tracks weight as to not overfill. Implemented a simple hopper design with a servo and a DS3231 RTC module to keep track of time. Also designed a way to track weight using a load cell and an HX711 module to eliminate overfilling." ,
+    "link": "https://github.com/HaydenRichardson/cat-feeder",
+    "media": "#"
+    },
+    {
+    "id": "blind-opener",
+    "title": "Auto Blind Opener",
+    "description": "Arduino-based automatic blind opener with scheduling.",
+    "tech": ["Arduino"],
+    "date": "Jan. 2026",
+    "link": "https://github.com/HaydenRichardson/blind-opener",
+    "media": "#"
+    }
+]

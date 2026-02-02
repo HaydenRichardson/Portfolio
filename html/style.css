@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    flex-grow: 1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .75rem 1rem;
+    background-color: #ffffff;
+    border-bottom: .125rem solid #ccc; 
+    box-shadow: 0 .125rem .313rem rgba(0,0,0,0.05)
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: 1rem;
+    background-color: #ffffff;
+    border-top: .125rem solid #ccc;
+    box-shadow: 0 .125rem .313rem rgba(0,0,0,0.05)
+}
+.navigation a {
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.project{
+    background-color: #d3d3d325;
+    border: .063rem solid #ddd;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+h1.project-page{
+    text-align: center;
+}
+
+.project:hover {
+    transform: translateY(-3px);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 7.5rem;
+    width: 75vw;
+    margin-bottom: 10rem;
+}
+
+.column{
+    text-align: center;
+    flex: 1;
+    padding: .938rem;
+    background-color: #ffffff;
+    /*border: .063rem solid #ccc;*/
+    box-sizing: border-box;
+    padding: .25rem;
+}
+
+h1.home{
+    text-align: center;
+    font-size: 5rem;
+}
+
+p.about{
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+.project-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem;
+    padding-top: 0;
+    gap: 1rem;
+
+}
