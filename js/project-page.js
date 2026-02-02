@@ -9,9 +9,14 @@ fetch("/data/projects.json")
             document.body.innerHTML = "<h1>Project not found</h1>";
             return;
         }
+        const link = document.getElementById("link");
         document.title = project.title + " | My Portfolio";
         document.getElementById("title").textContent = project.title;
+        document.getElementById("date").textContent = project.date;
         document.getElementById("description").textContent = project.description;
         document.getElementById("tech").textContent = "Tech: " + project.tech.join(", ");
+        link.textContent = "View Project on GitHub";
+        link.href = project.link;
+        link.target = "_blank";
         document.getElementById("content").textContent = project.content;
     });
