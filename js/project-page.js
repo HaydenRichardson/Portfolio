@@ -15,8 +15,12 @@ fetch("/data/projects.json")
         document.getElementById("date").textContent = project.date;
         document.getElementById("description").textContent = project.description;
         document.getElementById("tech").textContent = "Tech: " + project.tech.join(", ");
-        link.textContent = "View Project on GitHub";
-        link.href = project.link;
-        link.target = "_blank";
+        if(project.link){
+            link.textContent = "View Project on GitHub";
+            link.href = project.link;
+            link.target = "_blank";
+        } else{
+            link.style.display = "none";
+        }
         document.getElementById("content").textContent = project.content;
     });

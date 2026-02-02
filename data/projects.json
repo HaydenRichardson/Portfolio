@@ -14,8 +14,7 @@
     "description": "Basic webapp to track time and destination of students.",
     "tech": ["React","node.js","Postgres"],
     "date": "Dec. 2023",
-    "content": "I completed this project in Highschool using simple React and Node.js, effectively tracked time out, destination, and origin of students to eliminate the need for manual tracking.",
-    "link": "#"
+    "content": "I completed this project in Highschool using simple React and Node.js, effectively tracked time out, destination, and origin of students to eliminate the need for manual tracking."
     },
     {
     "id": "cat-feeder",
