@@ -109,3 +109,18 @@ a{
     gap: 1rem;
 
 }
+
+.media-row {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem 0;
+}
+
+.media-row img {
+    height: 12.5rem;
+    width: auto;
+    border-radius: .75rem;
+    box-shadow: 0 .375rem 1.25rem rgba(0,0,0,0.15);
+    flex-shrink: 0;
+}

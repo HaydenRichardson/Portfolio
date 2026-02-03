@@ -6,7 +6,7 @@
     "tech": ["Arduino","Python","Discord.py"],
     "date": "Sep. 2023",
     "link": "https://github.com/HaydenRichardson/Led-Bot",
-    "media": "#"
+    "media": []
     },
     {
     "id": "hall-pass",
@@ -24,7 +24,9 @@
     "date": "Jan. 2026",
     "content": "Designed and prototyped an automatic cat feeder that releases kibble at specified times and tracks weight as to not overfill. Implemented a simple hopper design with a servo and a DS3231 RTC module to keep track of time. Also designed a way to track weight using a load cell and an HX711 module to eliminate overfilling." ,
     "link": "https://github.com/HaydenRichardson/cat-feeder",
-    "media": "#"
+    "media": ["/media/cat-feeder/cat_SIDE1.jpeg",
+              "/media/cat-feeder/cat_SIDE2.jpeg",
+              "/media/cat-feeder/cat_TOP.jpeg"]
     },
     {
     "id": "blind-opener",
@@ -33,6 +35,6 @@
     "tech": ["Arduino"],
     "date": "Jan. 2026",
     "link": "https://github.com/HaydenRichardson/blind-opener",
-    "media": "#"
+    "media": []
     }
 ]

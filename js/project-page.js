@@ -9,6 +9,7 @@ fetch("/data/projects.json")
             document.body.innerHTML = "<h1>Project not found</h1>";
             return;
         }
+        const mediaContainer = document.getElementById("media");
         const link = document.getElementById("link");
         document.title = project.title + " | My Portfolio";
         document.getElementById("title").textContent = project.title;
@@ -21,6 +22,17 @@ fetch("/data/projects.json")
             link.target = "_blank";
         } else{
             link.style.display = "none";
+        }
+        if (project.media && project.media.length > 0) {
+            project.media.forEach(src => {
+                const img = document.createElement("img");
+                img.src = src;
+                img.alt = project.title + " image";
+                img.loading = "lazy";
+                mediaContainer.appendChild(img);
+            });
+        } else {
+            mediaContainer.style.display = "none";
         }
         document.getElementById("content").textContent = project.content;
     });
